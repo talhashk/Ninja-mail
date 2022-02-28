@@ -2,7 +2,7 @@ $base-url: "../";
 $used-fonts: ();
 $base-font-stack: (
   ral: (
-    reg: (
+    med: (
       family: (
         "Raleway",
         Arial,
@@ -34,32 +34,48 @@ $base-font-stack: (
         ),
       ),
     ),
-  ),
-  pla: (
-    reg: (
+    ex-bold: (
       family: (
-        "Playfair Display",
+        "Raleway",
         Arial,
         sans-serif,
       ),
-      weight: 400,
+      weight: 800,
       style: normal,
       font-face: (
-        family: "Playfair Display",
-        path: "",
+        family: "Raleway",
+        path: "Raleway-Bold",
         formats: (
           woff2,
         ),
       ),
     ),
-    bold: (
+    b-bold: (
+      family: (
+        "Raleway",
+        Arial,
+        sans-serif,
+      ),
+      weight: 900,
+      style: normal,
+      font-face: (
+        family: "Raleway",
+        path: "Raleway-Bold",
+        formats: (
+          woff2,
+        ),
+      ),
+    ),
+  ),
+  pla: (
+    l-bold: (
       family: (
         "Playfair Display",
         Helvetica,
         Arial,
         sans-serif,
       ),
-      weight: 700,
+      weight: 900,
       style: normal,
       font-face: (
         family: "Playfair Display",

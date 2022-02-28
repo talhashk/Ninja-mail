@@ -613,9 +613,6 @@ h4,
 h5,
 .heading-5 h6,
 .heading-6 {
-  font-family: "Playfair Display", Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
   margin: 0 0 2.5rem 0;
   text-transform: initial;
   clear: both;
@@ -1735,6 +1732,9 @@ a.comment-reply-link:hover {
   position: relative;
   line-height: 1;
   text-transform: uppercase;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 1.4rem;
 }
 .header-nav ul li:last-child {
@@ -1742,7 +1742,7 @@ a.comment-reply-link:hover {
 }
 .header-nav ul li:last-child a,
 .header-nav ul li:last-child a:visited {
-  background-color: #000000;
+  background-color: #4ba87d;
   color: #ffffff;
   padding: 15px 27px 14px 26px;
   border-radius: 5px;
@@ -1931,7 +1931,7 @@ a.comment-reply-link:hover {
 }
 .header-nav {
   text-align: center;
-  padding: 21px 0 0;
+  margin-left: 317px;
   position: absolute;
   left: 0;
   line-height: 1;
@@ -1948,7 +1948,6 @@ a.comment-reply-link:hover {
   display: inline-block;
   position: relative;
   line-height: 1;
-  font-weight: 500;
 }
 .header-nav ul li a,
 .header-nav ul li a:visited {
@@ -1958,6 +1957,7 @@ a.comment-reply-link:hover {
   border: 0;
   position: relative;
   letter-spacing: 0.5px;
+  font-weight: 800;
 }
 .header-nav ul li a:after,
 .header-nav ul li a:visited:after {
@@ -1967,6 +1967,7 @@ a.comment-reply-link:hover {
   height: 2px;
   bottom: 0;
   left: 0;
+  background-color: #4ba87d;
   opacity: 0.8;
   -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
@@ -2501,8 +2502,6 @@ a.comment-reply-link:hover {
  *
 ****/
 body {
-  font-family: "Raleway", Arial, sans-serif;
-  font-weight: 500;
   font-size: 18px;
   font-size: 1.8rem;
   -webkit-transition: padding 0.2s ease;
@@ -2539,38 +2538,14 @@ p {
  * containers
  *
 ****/
-.header-wrapper {
-  max-width: 1600px;
-  width: 90%;
-  margin: 0 auto;
-}
-
 .wrapper {
-  max-width: 1180px;
   width: 90%;
+  max-width: 1088px;
   margin: 0 auto;
 }
 
-.m-section .wrapper {
-  max-width: 1000px;
-}
-
-.s-section .wrapper {
-  max-width: 760px;
-}
-
-/****
- *
- * Valign-wrapper Style
- *
- ****/
-.valign-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.container-944 .wrapper {
+  max-width: 944px;
 }
 
 /****
@@ -2708,36 +2683,32 @@ a.button:visited {
   height: 160px;
 }
 
-.s-140 {
-  height: 140px;
+.s-146 {
+  height: 146px;
 }
 
 .s-120 {
   height: 120px;
 }
 
-.s-100 {
-  height: 100px;
+.s-103 {
+  height: 103px;
 }
 
 .s-80 {
   height: 80px;
 }
 
-.s-60 {
-  height: 60px;
-}
-
-.s-50 {
-  height: 50px;
+.s-56 {
+  height: 56px;
 }
 
 .s-40 {
   height: 40px;
 }
 
-.s-30 {
-  height: 30px;
+.s-35 {
+  height: 35px;
 }
 
 /*-------------------------------------------------
@@ -2904,12 +2875,6 @@ a.button:visited {
 /*------------------------------------------------------------------
 > Import Fonts
 ------------------------------------------------------------------*/
-@font-face {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/.woff2") format("woff2");
-}
 @font-face {
   font-family: "Raleway";
   font-style: normal;
