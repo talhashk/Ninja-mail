@@ -38,7 +38,7 @@
         margin: 0 0 0 1rem;
         a,
         a:visited {
-          background-color: map-get($map: $colors, $key: black);
+          background-color: map-get($map: $colors, $key: Aqua-f);
           color: map-get($map: $colors, $key: white);
           padding: 15px 27px 14px 26px;
           @include border-radius(5px);
