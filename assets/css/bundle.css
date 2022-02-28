@@ -613,9 +613,6 @@ h4,
 h5,
 .heading-5 h6,
 .heading-6 {
-  font-family: "Playfair Display", Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
   margin: 0 0 2.5rem 0;
   text-transform: initial;
   clear: both;
@@ -1735,6 +1732,9 @@ a.comment-reply-link:hover {
   position: relative;
   line-height: 1;
   text-transform: uppercase;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 1.4rem;
 }
 .header-nav ul li:last-child {
@@ -1948,7 +1948,6 @@ a.comment-reply-link:hover {
   display: inline-block;
   position: relative;
   line-height: 1;
-  font-weight: 500;
 }
 .header-nav ul li a,
 .header-nav ul li a:visited {
@@ -2503,8 +2502,6 @@ a.comment-reply-link:hover {
  *
 ****/
 body {
-  font-family: "Raleway", Arial, sans-serif;
-  font-weight: 500;
   font-size: 18px;
   font-size: 1.8rem;
   -webkit-transition: padding 0.2s ease;
@@ -2541,51 +2538,14 @@ p {
  * containers
  *
 ****/
-.header-wrapper {
-  max-width: 1267px;
+.wrapper {
   width: 90%;
+  max-width: 1088px;
   margin: 0 auto;
 }
 
-.hero-wrapper {
-  max-width: 1090px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.video-wrapper {
+.container-944 .wrapper {
   max-width: 944px;
-  margin: 0 auto;
-}
-
-.card-wrapper {
-  max-width: 1098px;
-  margin: 0 auto;
-}
-
-/****
- *
- * Valign-wrapper Style
- *
- ****/
-.img-wrapper {
-  max-width: 1089px;
-  margin: 0 auto;
-}
-
-.logo-wrapper {
-  max-width: 944px;
-  margin: 0 auto;
-}
-
-.btn-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.footer-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 /****
@@ -2723,36 +2683,32 @@ a.button:visited {
   height: 160px;
 }
 
-.s-140 {
-  height: 140px;
+.s-146 {
+  height: 146px;
 }
 
 .s-120 {
   height: 120px;
 }
 
-.s-100 {
-  height: 100px;
+.s-103 {
+  height: 103px;
 }
 
 .s-80 {
   height: 80px;
 }
 
-.s-60 {
-  height: 60px;
-}
-
-.s-50 {
-  height: 50px;
+.s-56 {
+  height: 56px;
 }
 
 .s-40 {
   height: 40px;
 }
 
-.s-30 {
-  height: 30px;
+.s-35 {
+  height: 35px;
 }
 
 /*-------------------------------------------------
@@ -2919,12 +2875,6 @@ a.button:visited {
 /*------------------------------------------------------------------
 > Import Fonts
 ------------------------------------------------------------------*/
-@font-face {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/.woff2") format("woff2");
-}
 @font-face {
   font-family: "Raleway";
   font-style: normal;

@@ -32,7 +32,7 @@
       position: relative;
       line-height: 1;
       text-transform: uppercase;
-      @include font(gs, sbold);
+      @include font(ral, med);
       font-size: 1.4rem;
       &:last-child {
         margin: 0 0 0 1rem;
