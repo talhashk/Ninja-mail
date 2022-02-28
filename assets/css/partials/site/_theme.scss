@@ -42,24 +42,17 @@ a {
  *
 ****/
 
-.header-wrapper {
-  max-width: 1267px;
-  width: 90%;
-  margin: 0 auto;
+.wrapper {
+	width: 90%;
+	max-width: 1088px;
+	margin:  0 auto;
 }
-.hero-wrapper {
-  max-width: 1090px;
-  width: 90%;
-  margin: 0 auto;
+.container-944 {
+	.wrapper {
+		max-width: 944px;
+	}
 }
 
-.video-wrapper{
-
-    max-width: 944px;
-	margin: 0 auto;
-
-
-}
 
 
   .card-wrapper {
