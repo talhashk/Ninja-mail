@@ -1735,7 +1735,7 @@ a.comment-reply-link:hover {
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 .header-nav ul li:last-child {
   margin: 0 0 0 1rem;
@@ -1744,15 +1744,12 @@ a.comment-reply-link:hover {
 .header-nav ul li:last-child a:visited {
   background-color: #4ba87d;
   color: #ffffff;
-  padding: 15px 27px 14px 26px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
+  padding: 12px 25px 12px 24px;
 }
 .header-nav ul li:last-child a:hover,
 .header-nav ul li:last-child a:visited:hover {
   color: #ffffff;
+  background-color: #000000;
 }
 .header-nav ul li:last-child a:after,
 .header-nav ul li:last-child a:visited:after {
@@ -1931,9 +1928,8 @@ a.comment-reply-link:hover {
 }
 .header-nav {
   text-align: center;
-  margin-left: 317px;
   position: absolute;
-  left: 0;
+  left: 317px;
   line-height: 1;
   right: 0;
 }
@@ -1949,8 +1945,8 @@ a.comment-reply-link:hover {
   position: relative;
   line-height: 1;
 }
-.header-nav ul li a,
-.header-nav ul li a:visited {
+.header-nav ul a,
+.header-nav ul a:visited {
   padding: 0 0 20px 0;
   display: inline-block;
   line-height: 1;
@@ -1959,12 +1955,13 @@ a.comment-reply-link:hover {
   letter-spacing: 0.5px;
   font-weight: 800;
 }
-.header-nav ul li a:after,
-.header-nav ul li a:visited:after {
+.header-nav ul a:after,
+.header-nav ul a:visited:after {
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 5px;
+  top: 22px;
   bottom: 0;
   left: 0;
   background-color: #4ba87d;
@@ -1981,12 +1978,12 @@ a.comment-reply-link:hover {
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
-.header-nav ul li.current-menu-item > a, .header-nav ul li.current-menu-parent > a,
-.header-nav ul li a:hover {
+.header-nav ul.current-menu-item > a, .header-nav ul.current-menu-parent > a,
+.header-nav ul a:hover {
   border: 0;
 }
-.header-nav ul li.current-menu-item > a:after, .header-nav ul li.current-menu-parent > a:after,
-.header-nav ul li a:hover:after {
+.header-nav ul.current-menu-item > a:after, .header-nav ul.current-menu-parent > a:after,
+.header-nav ul a:hover:after {
   -webkit-transform-origin: bottom left;
       -ms-transform-origin: bottom left;
           transform-origin: bottom left;
@@ -1994,7 +1991,7 @@ a.comment-reply-link:hover {
       -ms-transform: scaleX(1);
           transform: scaleX(1);
 }
-.header-nav ul ul {
+.header-nav ul {
   opacity: 0;
   -webkit-box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
           box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
@@ -2018,7 +2015,7 @@ a.comment-reply-link:hover {
   text-align: left;
   width: 300px;
 }
-.header-nav ul ul:before {
+.header-nav ul:before {
   content: "";
   width: 1px;
   height: 17px;
@@ -2034,15 +2031,15 @@ a.comment-reply-link:hover {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.header-nav ul ul li {
+.header-nav ul li {
   display: block;
   margin: 0 0 13px 0;
 }
-.header-nav ul ul li:last-child {
+.header-nav ul li:last-child {
   margin: 0;
 }
-.header-nav ul ul li a,
-.header-nav ul ul li a:visited {
+.header-nav ul li a,
+.header-nav ul li a:visited {
   font-size: 16px;
   padding: 0 !important;
   display: block;
@@ -2055,18 +2052,18 @@ a.comment-reply-link:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.header-nav ul ul li a:after,
-.header-nav ul ul li a:visited:after {
+.header-nav ul li a:after,
+.header-nav ul li a:visited:after {
   display: none;
 }
-.header-nav ul ul li.current-menu-item > a, .header-nav ul ul li.current-menu-parent > a {
+.header-nav ul li.current-menu-item > a, .header-nav ul li.current-menu-parent > a {
   border-bottom: none;
 }
-.header-nav ul ul ul {
+.header-nav ul ul {
   top: -10px;
   left: 220px;
 }
-.header-nav ul ul ul:before {
+.header-nav ul ul:before {
   display: none;
   content: "";
   width: 1px;
@@ -2538,6 +2535,12 @@ p {
  * containers
  *
 ****/
+.header-wrapper {
+  max-width: 1267px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .wrapper {
   width: 90%;
   max-width: 1088px;
