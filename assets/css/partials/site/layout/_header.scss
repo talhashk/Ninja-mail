@@ -32,19 +32,19 @@
       position: relative;
       line-height: 1;
       text-transform: uppercase;
-      @include font(gs, sbold);
-      font-size: 1.4rem;
+      @include font(ral, med);
+      font-size: 1.7rem;
       &:last-child {
         margin: 0 0 0 1rem;
         a,
         a:visited {
           background-color: map-get($map: $colors, $key: Aqua-f);
           color: map-get($map: $colors, $key: white);
-          padding: 15px 27px 14px 26px;
-          @include border-radius(5px);
+          padding: 12px 25px 12px 24px;
+
           &:hover {
             color: map-get($map: $colors, $key: white);
-            background-color: map-get($map: $colors, $key: blackhvr);
+            background-color: map-get($map: $colors, $key: black);
           }
           &:after {
             display: none;

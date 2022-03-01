@@ -41,7 +41,11 @@ a {
  * containers
  *
 ****/
-
+.header-wrapper {
+  max-width: 1267px;
+  width: 90%;
+  margin: 0 auto;
+}
 .wrapper {
   width: 90%;
   max-width: 1088px;
