@@ -192,12 +192,12 @@ video {
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 html {
   font-size: 10px;
-  /* -webkit-text-size-adjust: 100%; */
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
@@ -266,9 +266,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -276,9 +276,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -287,9 +287,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -299,7 +299,7 @@ fieldset {
 
 legend {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -318,26 +318,26 @@ textarea {
 /**
  * Add the correct box sizing in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
 }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -382,7 +382,7 @@ textarea {
 
 .gfield {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin-bottom: 0;
   position: relative;
 }
@@ -613,9 +613,6 @@ h4,
 h5,
 .heading-5 h6,
 .heading-6 {
-  font-family: "Playfair Display", Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
   margin: 0 0 2.5rem 0;
   text-transform: initial;
   clear: both;
@@ -882,7 +879,7 @@ q {
 blockquote {
   position: relative;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   padding: 5rem 5rem 3.6rem 5rem;
   margin-bottom: 2.4rem;
 }
@@ -1028,22 +1025,22 @@ a {
 /*-------------------------------------------------
 >> Styles for form fields
 -------------------------------------------------*/
-input[type="text"],
-input[type="password"],
-input[type="search"],
+input[type=text],
+input[type=password],
+input[type=search],
 .input-comments,
 .search-input,
-input[type="email"],
-input[type="url"],
-input[type="tel"],
-input[type="number"],
-input[type="date"],
-input[type="file"],
-input[type="range"] {
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=number],
+input[type=date],
+input[type=file],
+input[type=range] {
   height: 60px;
   width: 100%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid rgba(109, 122, 135, 0.3);
   outline: none;
   background-color: #ffffff;
@@ -1060,22 +1057,22 @@ input[type="range"] {
   -moz-border-radius: 6px;
   -o-border-radius: 6px;
 }
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
 .input-comments:focus,
 .search-input:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="tel"]:focus,
-input[type="number"]:focus,
-input[type="date"]:focus,
-input[type="file"]:focus,
-input[type="range"]:focus {
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+input[type=file]:focus,
+input[type=range]:focus {
   border: 1px solid;
 }
 
-input[type="file"] {
+input[type=file] {
   padding: 0.9rem;
 }
 
@@ -1083,7 +1080,7 @@ select {
   height: 60px;
   width: 100%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid rgba(109, 122, 135, 0.3);
   outline: none;
   background-color: #ffffff;
@@ -1113,7 +1110,7 @@ option {
   font-weight: 300 !important;
 }
 
-input[type="range"] {
+input[type=range] {
   padding: 0;
   border: none;
 }
@@ -1125,7 +1122,7 @@ textarea {
   padding: 1rem 0 0 1.8rem;
   margin: 0 0 4rem 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #ffffff;
   font-size: 18px;
   font-size: 1.8rem;
@@ -1144,7 +1141,7 @@ textarea:focus {
   border: 1px solid;
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
   opacity: 0;
   outline: none;
   z-index: 100;
@@ -1154,31 +1151,31 @@ input[type="checkbox"] {
   left: 0;
   position: absolute;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   cursor: pointer;
 }
-input[type="checkbox"] + label {
+input[type=checkbox] + label {
   cursor: pointer;
 }
-input[type="checkbox"]:checked + label:before {
+input[type=checkbox]:checked + label:before {
   opacity: 1;
 }
-input[type="checkbox"]:checked + label:after {
+input[type=checkbox]:checked + label:after {
   border: 1px solid;
 }
 
 /*-------------------------------------------------
 >> Styles for buttons
 -------------------------------------------------*/
-input[type="submit"],
+input[type=submit],
 button,
-input[type="button"] {
+input[type=button] {
   padding: 20px 25px;
   display: inline-block;
   line-height: 1;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid transparent;
   font-size: 18px;
   color: #ffffff;
@@ -1201,7 +1198,7 @@ input[type="button"] {
 .wp-caption {
   max-width: 100%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin-bottom: 5rem !important;
 }
 .wp-caption.alignnone {
@@ -1234,7 +1231,7 @@ input[type="button"] {
   word-spacing: 2.5px;
   letter-spacing: 1.5px;
 }
-.wp-caption img[class*="wp-image-"] {
+.wp-caption img[class*=wp-image-] {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1301,7 +1298,7 @@ input[type="button"] {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -1310,16 +1307,14 @@ input[type="button"] {
   width: 1px;
   word-wrap: normal !important;
 }
-.screen-reader-text:hover,
-.screen-reader-text:active,
-.screen-reader-text:focus {
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
   background-color: #ffffff;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
   -webkit-clip-path: none;
-  clip-path: none;
+          clip-path: none;
   color: #21759b;
   display: block;
   font-size: 14px;
@@ -1476,7 +1471,7 @@ a img.aligncenter {
 }
 
 #commentform .input-comments,
-#commentform input[type="text"] {
+#commentform input[type=text] {
   width: 32.25%;
   float: left;
   margin-right: 1.62%;
@@ -1526,10 +1521,7 @@ ol.commentlist li ul.children {
   list-style: none;
   margin: 1rem 0 0;
 }
-ol.commentlist li ul.children li.depth-2,
-ol.commentlist li ul.children li.depth-3,
-ol.commentlist li ul.children li.depth-4,
-ol.commentlist li ul.children li.depth-5 {
+ol.commentlist li ul.children li.depth-2, ol.commentlist li ul.children li.depth-3, ol.commentlist li ul.children li.depth-4, ol.commentlist li ul.children li.depth-5 {
   margin: 0 0 0 6rem;
 }
 
@@ -1646,7 +1638,7 @@ a.comment-reply-link:hover {
 .widgets-area .gallery .gallery-item {
   padding: 0 4px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 0 1px 0;
 }
 .widgets-area #wp-calendar {
@@ -1709,7 +1701,7 @@ a.comment-reply-link:hover {
 
   .header-nav ul ul {
     -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+            animation-delay: 0.6s;
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
@@ -1740,6 +1732,9 @@ a.comment-reply-link:hover {
   position: relative;
   line-height: 1;
   text-transform: uppercase;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 1.7rem;
 }
 .header-nav ul li:last-child {
@@ -1781,11 +1776,11 @@ a.comment-reply-link:hover {
   background-color: #000000;
   opacity: 0.8;
   -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
   -webkit-transform-origin: bottom right;
-  -ms-transform-origin: bottom right;
-  transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
@@ -1794,11 +1789,11 @@ a.comment-reply-link:hover {
 }
 .header-nav ul li.active a:after {
   -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
   -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .header-nav ul li a:hover {
   border: 0;
@@ -1806,16 +1801,16 @@ a.comment-reply-link:hover {
 }
 .header-nav ul li a:hover:after {
   -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
   -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .header-nav ul ul {
   opacity: 0;
   -webkit-box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
-  box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
+          box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
   visibility: hidden;
   padding: 26px;
   border-radius: 12px;
@@ -1878,7 +1873,7 @@ a.comment-reply-link:hover {
   line-height: 1.4;
   display: block;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1888,8 +1883,7 @@ a.comment-reply-link:hover {
 .header-nav ul ul li a:visited:after {
   display: none;
 }
-.header-nav ul ul li.current-menu-item > a,
-.header-nav ul ul li.current-menu-parent > a {
+.header-nav ul ul li.current-menu-item > a, .header-nav ul ul li.current-menu-parent > a {
   border-bottom: none;
 }
 .header-nav ul ul ul {
@@ -1923,7 +1917,7 @@ a.comment-reply-link:hover {
 
   .header-nav ul ul {
     -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+            animation-delay: 0.6s;
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
@@ -1950,7 +1944,6 @@ a.comment-reply-link:hover {
   display: inline-block;
   position: relative;
   line-height: 1;
-  font-weight: 500;
 }
 .header-nav ul a,
 .header-nav ul a:visited {
@@ -1974,36 +1967,34 @@ a.comment-reply-link:hover {
   background-color: #4ba87d;
   opacity: 0.8;
   -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
   -webkit-transform-origin: bottom right;
-  -ms-transform-origin: bottom right;
-  transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
-.header-nav ul.current-menu-item > a,
-.header-nav ul.current-menu-parent > a,
+.header-nav ul.current-menu-item > a, .header-nav ul.current-menu-parent > a,
 .header-nav ul a:hover {
   border: 0;
 }
-.header-nav ul.current-menu-item > a:after,
-.header-nav ul.current-menu-parent > a:after,
+.header-nav ul.current-menu-item > a:after, .header-nav ul.current-menu-parent > a:after,
 .header-nav ul a:hover:after {
   -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
   -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .header-nav ul {
   opacity: 0;
   -webkit-box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
-  box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
+          box-shadow: 0px 30px 60px rgba(18, 27, 32, 0.15);
   visibility: hidden;
   padding: 26px;
   border-radius: 12px;
@@ -2055,7 +2046,7 @@ a.comment-reply-link:hover {
   line-height: 1.4;
   display: block;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -2065,8 +2056,7 @@ a.comment-reply-link:hover {
 .header-nav ul li a:visited:after {
   display: none;
 }
-.header-nav ul li.current-menu-item > a,
-.header-nav ul li.current-menu-parent > a {
+.header-nav ul li.current-menu-item > a, .header-nav ul li.current-menu-parent > a {
   border-bottom: none;
 }
 .header-nav ul ul {
@@ -2105,7 +2095,7 @@ a.comment-reply-link:hover {
   }
 
   .right-header,
-  .left-header {
+.left-header {
     width: 100%;
     float: none;
   }
@@ -2124,7 +2114,7 @@ a.comment-reply-link:hover {
     opacity: 1;
   }
   .nav-overlay .header-nav ul li a,
-  .nav-overlay .header-nav ul li a:visited {
+.nav-overlay .header-nav ul li a:visited {
     color: #ffffff;
     padding: 7px 7px 7px 15px;
     line-height: 1;
@@ -2136,9 +2126,8 @@ a.comment-reply-link:hover {
     display: block;
     position: relative;
   }
-  .nav-overlay .header-nav ul li.current-menu-item > a,
-  .nav-overlay .header-nav ul li.current-menu-parent > a,
-  .nav-overlay .header-nav ul li a:hover {
+  .nav-overlay .header-nav ul li.current-menu-item > a, .nav-overlay .header-nav ul li.current-menu-parent > a,
+.nav-overlay .header-nav ul li a:hover {
     border-left: 3px solid #ffffff;
     border-bottom: none;
   }
@@ -2156,7 +2145,7 @@ a.comment-reply-link:hover {
     padding: 6px 0;
   }
   .nav-overlay .header-nav ul ul li a,
-  .nav-overlay .header-nav ul ul li a:visited {
+.nav-overlay .header-nav ul ul li a:visited {
     padding: 5px 5px 5px 15px;
     text-transform: inherit;
     border-left: 2px solid transparent;
@@ -2175,7 +2164,7 @@ a.comment-reply-link:hover {
     visibility: hidden;
     overflow: visible;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+            box-sizing: border-box;
     z-index: 9999;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -2196,10 +2185,10 @@ a.comment-reply-link:hover {
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     -webkit-transition-delay: 0.25s;
-    -o-transition-delay: 0.25s;
-    transition-delay: 0.25s;
+         -o-transition-delay: 0.25s;
+            transition-delay: 0.25s;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+            box-sizing: border-box;
   }
 
   header .nav-overlay.open .nav-container {
@@ -2224,12 +2213,12 @@ a.comment-reply-link:hover {
     padding-right: 2%;
     padding-left: 2%;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+            box-sizing: border-box;
   }
 
   .nav-content::-webkit-scrollbar-track {
     -webkit-box-shadow: none;
-    box-shadow: none;
+            box-shadow: none;
     background-color: transparent;
   }
 
@@ -2239,12 +2228,12 @@ a.comment-reply-link:hover {
     position: relative;
     left: 5px;
     -webkit-box-shadow: none;
-    box-shadow: none;
+            box-shadow: none;
   }
 
   .nav-content::-webkit-scrollbar-thumb {
     -webkit-box-shadow: none;
-    box-shadow: none;
+            box-shadow: none;
     border-radius: 2px;
   }
 
@@ -2258,8 +2247,8 @@ a.comment-reply-link:hover {
     -o-transition: all 0.55s ease-in-out;
     transition: all 0.55s ease-in-out;
     -webkit-transition-delay: 0.4s;
-    -o-transition-delay: 0.4s;
-    transition-delay: 0.4s;
+         -o-transition-delay: 0.4s;
+            transition-delay: 0.4s;
     padding-top: 10px;
   }
 
@@ -2289,7 +2278,7 @@ a.comment-reply-link:hover {
   .menu-btn.active .top {
     -webkit-transform: translateY(11px) translateX(0) rotate(-45deg);
     -ms-transform: translateY(11px) translateX(0) rotate(-45deg);
-    transform: translateY(11px) translateX(0) rotate(-45deg);
+        transform: translateY(11px) translateX(0) rotate(-45deg);
     background: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -2304,7 +2293,7 @@ a.comment-reply-link:hover {
   .menu-btn.active .bottom {
     -webkit-transform: translateY(-11px) translateX(0) rotate(45deg);
     -ms-transform: translateY(-11px) translateX(0) rotate(45deg);
-    transform: translateY(-11px) translateX(0) rotate(45deg);
+        transform: translateY(-11px) translateX(0) rotate(45deg);
     background: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -2464,11 +2453,11 @@ a.comment-reply-link:hover {
   left: 0;
   opacity: 0.8;
   -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
   -webkit-transform-origin: bottom right;
-  -ms-transform-origin: bottom right;
-  transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
@@ -2478,19 +2467,19 @@ a.comment-reply-link:hover {
 .legal-nav ul li a:hover::after,
 .legal-nav ul li a:visited:hover::after {
   -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
   -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .legal-nav ul li.current-menu-item a::after {
   -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
   -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .legal-nav ul li:last-child {
   margin-right: 0;
@@ -2510,8 +2499,6 @@ a.comment-reply-link:hover {
  *
 ****/
 body {
-  font-family: "Raleway", Arial, sans-serif;
-  font-weight: 500;
   font-size: 18px;
   font-size: 1.8rem;
   -webkit-transition: padding 0.2s ease;
@@ -2527,18 +2514,14 @@ p {
   margin: 0 0 3rem 0;
 }
 
-.glide-block a,
-.glide-block:visited,
+.glide-block a, .glide-block:visited,
 .page-content a,
 .page-content:visited {
   color: #000000;
   position: relative;
   border-bottom: 1px solid #000000;
 }
-.glide-block a:hover,
-.glide-block a:active,
-.glide-block:visited:hover,
-.glide-block:visited:active,
+.glide-block a:hover, .glide-block a:active, .glide-block:visited:hover, .glide-block:visited:active,
 .page-content a:hover,
 .page-content a:active,
 .page-content:visited:hover,
@@ -2604,15 +2587,13 @@ p {
   font-weight: 500;
   margin-left: 10px;
 }
-#breadcrumbs a,
-#breadcrumbs:visited {
+#breadcrumbs a, #breadcrumbs:visited {
   font-weight: 700;
   margin: 0 10px;
   border-bottom: 1px solid transparent;
   font-size: 14px;
 }
-#breadcrumbs a:hover,
-#breadcrumbs:visited:hover {
+#breadcrumbs a:hover, #breadcrumbs:visited:hover {
   border-bottom: 1px solid;
 }
 
@@ -2635,7 +2616,7 @@ a.button:visited {
   display: inline-block;
   line-height: 1;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid transparent;
   font-size: 18px;
   color: #ffffff;
@@ -2705,36 +2686,32 @@ a.button:visited {
   height: 160px;
 }
 
-.s-140 {
-  height: 140px;
+.s-146 {
+  height: 146px;
 }
 
 .s-120 {
   height: 120px;
 }
 
-.s-100 {
-  height: 100px;
+.s-103 {
+  height: 103px;
 }
 
 .s-80 {
   height: 80px;
 }
 
-.s-60 {
-  height: 60px;
-}
-
-.s-50 {
-  height: 50px;
+.s-56 {
+  height: 56px;
 }
 
 .s-40 {
   height: 40px;
 }
 
-.s-30 {
-  height: 30px;
+.s-35 {
+  height: 35px;
 }
 
 /*-------------------------------------------------
@@ -2810,7 +2787,7 @@ a.button:visited {
   width: 44px;
   height: 44px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -2841,7 +2818,7 @@ a.button:visited {
   text-align: center;
   padding: 7px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   background-color: rgba(40, 28, 60, 0.04);
   font-size: 15px;
   line-height: 20px;
@@ -2901,12 +2878,6 @@ a.button:visited {
 /*------------------------------------------------------------------
 > Import Fonts
 ------------------------------------------------------------------*/
-@font-face {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/.woff2") format("woff2");
-}
 @font-face {
   font-family: "Raleway";
   font-style: normal;
